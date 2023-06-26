@@ -58,7 +58,3 @@ haloDish.addEventListener('mouseleave', function(){
     greenDish.style.width ="480px";
     modusDish.style.width ="480px";
 });
-
-$( document ).ready(function() {
-    alert( "1920px 사이즈에서만 정상 동작합니다." );
-});
