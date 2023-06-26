@@ -3,6 +3,12 @@ const greenDish = document.querySelector("#dish-back2");
 const modusDish = document.querySelector("#dish-back3");
 const haloDish = document.querySelector("#dish-back4");
 
+document.addEventListener("DOMContentLoaded", function(){
+
+ alert("1920px 사이즈에서만 정상 동작합니다.");
+
+});
+
 blueDish.addEventListener('mouseenter', function(){
     blueDish.style.width ="960px";
     greenDish.style.width ="320px";
